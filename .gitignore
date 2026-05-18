@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local working files
+_ref-pdf/
+_ref-pdf-text.txt
+bring-source.pdf
+
+# Build helper scripts kept out of repo (not part of LP deliverable)
+inspect-bg.js
+crop-to-subject.js
+remove-bg-edge.js
+pdf-extract-text.js
+pdf-render-all.js
+pdf-render2.js
+pdf-crop.js
+pdf2png.js
+extract-last-image.js
+
+# Source images for transparent PNG generation
+assets/img/fv-src-*.png
