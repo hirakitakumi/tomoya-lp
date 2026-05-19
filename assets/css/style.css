@@ -260,11 +260,12 @@ html { scrollbar-gutter: stable; }
 }
 .tmy-header.is-scrolled .tmy-header__inner { padding: 12px 32px; }
 
-.tmy-header__logo { display: flex; flex-direction: column; line-height: 1.1; }
+.tmy-header__logo { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; }
 .tmy-header__logo-img {
   display: block;
   height: 28px;
   width: auto;
+  flex-shrink: 0;
 }
 .tmy-header__logo-mark {
   font-family: var(--font-display);
