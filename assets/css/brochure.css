@@ -179,28 +179,20 @@ html, body {
 
 .bp-cover__brandbar {
   position: absolute;
-  top: 6mm;
+  top: 18mm;
   left: 0;
   right: 0;
   text-align: center;
 }
 .bp-cover__brandbar-img {
   display: block;
-  height: 9mm;
+  height: 14mm;
   width: auto;
-  margin: 0 auto 2mm;
-}
-.bp-cover__brandbar-text {
-  margin: 0;
-  font-family: var(--en-sans);
-  font-weight: 600;
-  font-size: 9pt;
-  letter-spacing: 0.4em;
-  color: var(--ink-green);
+  margin: 0 auto;
 }
 .bp-cover__year {
   position: absolute;
-  top: 26mm;
+  top: 44mm;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
