@@ -1302,6 +1302,11 @@ html { scrollbar-gutter: stable; }
   box-shadow: var(--shadow-md);
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.tmy-sustain__card .tmy-sustain__list {
+  margin-top: auto;
 }
 .tmy-sustain__tag {
   display: inline-block;

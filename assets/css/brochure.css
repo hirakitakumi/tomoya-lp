@@ -1085,6 +1085,11 @@ html, body {
 .bp-sustain__card {
   padding: 6mm;
   background: var(--paper-soft);
+  display: flex;
+  flex-direction: column;
+}
+.bp-sustain__card .bp-sustain__list {
+  margin-top: auto;
 }
 .bp-sustain__tag {
   display: inline-block;
