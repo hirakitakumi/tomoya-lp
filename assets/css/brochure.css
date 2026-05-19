@@ -183,6 +183,15 @@ html, body {
   left: 0;
   right: 0;
   text-align: center;
+}
+.bp-cover__brandbar-img {
+  display: block;
+  height: 9mm;
+  width: auto;
+  margin: 0 auto 2mm;
+}
+.bp-cover__brandbar-text {
+  margin: 0;
   font-family: var(--en-sans);
   font-weight: 600;
   font-size: 9pt;
@@ -1281,6 +1290,14 @@ html, body {
   font-size: 30pt;
   letter-spacing: 0.18em;
   margin: 0 0 4mm;
+}
+.bp-back__brand-img {
+  display: block;
+  height: 14mm;
+  width: auto;
+  margin: 0 auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
 }
 .bp-back__copy-jp {
   font-family: var(--serif);

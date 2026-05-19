@@ -261,6 +261,11 @@ html { scrollbar-gutter: stable; }
 .tmy-header.is-scrolled .tmy-header__inner { padding: 12px 32px; }
 
 .tmy-header__logo { display: flex; flex-direction: column; line-height: 1.1; }
+.tmy-header__logo-img {
+  display: block;
+  height: 28px;
+  width: auto;
+}
 .tmy-header__logo-mark {
   font-family: var(--font-display);
   font-weight: 900;
@@ -2066,6 +2071,15 @@ body.tmy-modal-open { overflow: hidden; }
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.06em;
+  margin: 0;
+}
+.tmy-footer__company-img {
+  display: block;
+  height: 36px;
+  width: auto;
+  margin: 0 auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
 }
 .tmy-footer__addr {
   font-size: 13px;
