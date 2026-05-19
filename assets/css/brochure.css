@@ -174,7 +174,7 @@ html, body {
   border-top: 0.5px solid var(--ink-green);
   opacity: 0.6;
 }
-.bp-cover::before { top: 14mm; }
+.bp-cover::before { top: 38mm; }
 .bp-cover::after { bottom: 14mm; }
 
 .bp-cover__brandbar {
